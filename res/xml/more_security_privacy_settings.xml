@@ -245,4 +245,10 @@
             android:summary="@string/hide_applist_summary"
             android:fragment="com.android.settings.custom.privacy.HideAppListSettings" />
 
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+            android:key="hide_screen_capture_status"
+            android:title="@string/hide_screen_capture_status_title"
+            android:summary="@string/hide_screen_capture_status_summary"
+            android:defaultValue="false"/>
+
 </PreferenceScreen>
